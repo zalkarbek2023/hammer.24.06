@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0503CFA9CC6B09493C3CC92A /* Pods_Hammer_23_06.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE6C9272D273EF28929421 /* Pods_Hammer_23_06.framework */; };
 		783B03C22A45B6E2007D9D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03C12A45B6E2007D9D08 /* AppDelegate.swift */; };
 		783B03C42A45B6E2007D9D08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03C32A45B6E2007D9D08 /* SceneDelegate.swift */; };
 		783B03C62A45B6E2007D9D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03C52A45B6E2007D9D08 /* ViewController.swift */; };
 		783B03C92A45B6E2007D9D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783B03C72A45B6E2007D9D08 /* Main.storyboard */; };
 		783B03CB2A45B6E4007D9D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783B03CA2A45B6E4007D9D08 /* Assets.xcassets */; };
 		783B03CE2A45B6E4007D9D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783B03CC2A45B6E4007D9D08 /* LaunchScreen.storyboard */; };
+		783B03DB2A45B827007D9D08 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03DA2A45B827007D9D08 /* TabBarViewController.swift */; };
+		783B03E22A45B8DD007D9D08 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03E12A45B8DD007D9D08 /* ContactViewController.swift */; };
+		783B03E42A45B8F2007D9D08 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03E32A45B8F2007D9D08 /* ProfileViewController.swift */; };
+		783B03E62A45B8FD007D9D08 /* KorzinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03E52A45B8FD007D9D08 /* KorzinaViewController.swift */; };
+		783B03E82A466549007D9D08 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03E72A466549007D9D08 /* StatusModel.swift */; };
+		783B03EA2A466576007D9D08 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03E92A466576007D9D08 /* CategoryModel.swift */; };
+		783B03EC2A46659B007D9D08 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03EB2A46659B007D9D08 /* ProductModel.swift */; };
+		783B03F12A466630007D9D08 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03F02A466630007D9D08 /* CategoryCollectionViewCell.swift */; };
+		783B03F52A466683007D9D08 /* StatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03F42A466683007D9D08 /* StatusCollectionViewCell.swift */; };
+		783B03F72A4666BD007D9D08 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03F62A4666BD007D9D08 /* ProductTableViewCell.swift */; };
+		783B03FE2A4669BA007D9D08 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B03FD2A4669BA007D9D08 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40CE6C9272D273EF28929421 /* Pods_Hammer_23_06.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hammer_23_06.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFA00ACC688CE0E9C0FE090 /* Pods-Hammer.23.06.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hammer.23.06.debug.xcconfig"; path = "Target Support Files/Pods-Hammer.23.06/Pods-Hammer.23.06.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC93340CFFB5B0D437BEF7D /* Pods-Hammer.23.06.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hammer.23.06.release.xcconfig"; path = "Target Support Files/Pods-Hammer.23.06/Pods-Hammer.23.06.release.xcconfig"; sourceTree = "<group>"; };
 		783B03BE2A45B6E2007D9D08 /* Hammer.23.06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hammer.23.06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		783B03C12A45B6E2007D9D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		783B03C32A45B6E2007D9D08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,17 @@
 		783B03CA2A45B6E4007D9D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783B03CD2A45B6E4007D9D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783B03CF2A45B6E4007D9D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783B03DA2A45B827007D9D08 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		783B03E12A45B8DD007D9D08 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		783B03E32A45B8F2007D9D08 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		783B03E52A45B8FD007D9D08 /* KorzinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorzinaViewController.swift; sourceTree = "<group>"; };
+		783B03E72A466549007D9D08 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		783B03E92A466576007D9D08 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		783B03EB2A46659B007D9D08 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		783B03F02A466630007D9D08 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		783B03F42A466683007D9D08 /* StatusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCollectionViewCell.swift; sourceTree = "<group>"; };
+		783B03F62A4666BD007D9D08 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		783B03FD2A4669BA007D9D08 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0503CFA9CC6B09493C3CC92A /* Pods_Hammer_23_06.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3343E9108995BA4683F94B89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BFA00ACC688CE0E9C0FE090 /* Pods-Hammer.23.06.debug.xcconfig */,
+				4DC93340CFFB5B0D437BEF7D /* Pods-Hammer.23.06.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		783B03B52A45B6E2007D9D08 = {
 			isa = PBXGroup;
 			children = (
 				783B03C02A45B6E2007D9D08 /* Hammer.23.06 */,
 				783B03BF2A45B6E2007D9D08 /* Products */,
+				3343E9108995BA4683F94B89 /* Pods */,
+				F0E6902010C25FFDCCD40A1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,154 @@
 		783B03C02A45B6E2007D9D08 /* Hammer.23.06 */ = {
 			isa = PBXGroup;
 			children = (
+				783B03D52A45B6F9007D9D08 /* App */,
+				783B03D82A45B7C3007D9D08 /* Model */,
+				783B03D72A45B79F007D9D08 /* AuthorizedWorkFlow */,
+				783B03D62A45B704007D9D08 /* Resources */,
+			);
+			path = Hammer.23.06;
+			sourceTree = "<group>";
+		};
+		783B03D52A45B6F9007D9D08 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				783B03C12A45B6E2007D9D08 /* AppDelegate.swift */,
 				783B03C32A45B6E2007D9D08 /* SceneDelegate.swift */,
-				783B03C52A45B6E2007D9D08 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		783B03D62A45B704007D9D08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				783B03C72A45B6E2007D9D08 /* Main.storyboard */,
 				783B03CA2A45B6E4007D9D08 /* Assets.xcassets */,
 				783B03CC2A45B6E4007D9D08 /* LaunchScreen.storyboard */,
 				783B03CF2A45B6E4007D9D08 /* Info.plist */,
 			);
-			path = Hammer.23.06;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		783B03D72A45B79F007D9D08 /* AuthorizedWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				783B03D92A45B7E8007D9D08 /* TabBar */,
+				783B03DF2A45B8A0007D9D08 /* Main */,
+				783B03DC2A45B851007D9D08 /* Contact */,
+				783B03DD2A45B85A007D9D08 /* Profil */,
+				783B03DE2A45B863007D9D08 /* Korzina */,
+			);
+			path = AuthorizedWorkFlow;
+			sourceTree = "<group>";
+		};
+		783B03D82A45B7C3007D9D08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				783B03F82A466966007D9D08 /* DTOs */,
+				783B03FA2A46697D007D9D08 /* NetworkService */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		783B03D92A45B7E8007D9D08 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				783B03DA2A45B827007D9D08 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		783B03DC2A45B851007D9D08 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				783B03E12A45B8DD007D9D08 /* ContactViewController.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		783B03DD2A45B85A007D9D08 /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				783B03E32A45B8F2007D9D08 /* ProfileViewController.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		783B03DE2A45B863007D9D08 /* Korzina */ = {
+			isa = PBXGroup;
+			children = (
+				783B03E52A45B8FD007D9D08 /* KorzinaViewController.swift */,
+			);
+			path = Korzina;
+			sourceTree = "<group>";
+		};
+		783B03DF2A45B8A0007D9D08 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				783B03C52A45B6E2007D9D08 /* ViewController.swift */,
+				783B03EE2A4665ED007D9D08 /* Components */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		783B03EE2A4665ED007D9D08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				783B03EF2A466617007D9D08 /* Category */,
+				783B03F22A466658007D9D08 /* Status */,
+				783B03F32A466669007D9D08 /* Product */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		783B03EF2A466617007D9D08 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				783B03F02A466630007D9D08 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		783B03F22A466658007D9D08 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				783B03F42A466683007D9D08 /* StatusCollectionViewCell.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		783B03F32A466669007D9D08 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				783B03F62A4666BD007D9D08 /* ProductTableViewCell.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		783B03F82A466966007D9D08 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				783B03E72A466549007D9D08 /* StatusModel.swift */,
+				783B03E92A466576007D9D08 /* CategoryModel.swift */,
+				783B03EB2A46659B007D9D08 /* ProductModel.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		783B03FA2A46697D007D9D08 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				783B03FD2A4669BA007D9D08 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		F0E6902010C25FFDCCD40A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40CE6C9272D273EF28929421 /* Pods_Hammer_23_06.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 783B03D22A45B6E4007D9D08 /* Build configuration list for PBXNativeTarget "Hammer.23.06" */;
 			buildPhases = (
+				3566FC5B1765DBE410DAFDE9 /* [CP] Check Pods Manifest.lock */,
 				783B03BA2A45B6E2007D9D08 /* Sources */,
 				783B03BB2A45B6E2007D9D08 /* Frameworks */,
 				783B03BC2A45B6E2007D9D08 /* Resources */,
+				31D41EDCEC0069135C91E505 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +312,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31D41EDCEC0069135C91E505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hammer.23.06/Pods-Hammer.23.06-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hammer.23.06/Pods-Hammer.23.06-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hammer.23.06/Pods-Hammer.23.06-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3566FC5B1765DBE410DAFDE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hammer.23.06-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		783B03BA2A45B6E2007D9D08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783B03E42A45B8F2007D9D08 /* ProfileViewController.swift in Sources */,
+				783B03E82A466549007D9D08 /* StatusModel.swift in Sources */,
+				783B03DB2A45B827007D9D08 /* TabBarViewController.swift in Sources */,
+				783B03E62A45B8FD007D9D08 /* KorzinaViewController.swift in Sources */,
+				783B03F52A466683007D9D08 /* StatusCollectionViewCell.swift in Sources */,
 				783B03C62A45B6E2007D9D08 /* ViewController.swift in Sources */,
 				783B03C22A45B6E2007D9D08 /* AppDelegate.swift in Sources */,
+				783B03F72A4666BD007D9D08 /* ProductTableViewCell.swift in Sources */,
 				783B03C42A45B6E2007D9D08 /* SceneDelegate.swift in Sources */,
+				783B03EA2A466576007D9D08 /* CategoryModel.swift in Sources */,
+				783B03FE2A4669BA007D9D08 /* NetworkService.swift in Sources */,
+				783B03F12A466630007D9D08 /* CategoryCollectionViewCell.swift in Sources */,
+				783B03E22A45B8DD007D9D08 /* ContactViewController.swift in Sources */,
+				783B03EC2A46659B007D9D08 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +514,7 @@
 		};
 		783B03D32A45B6E4007D9D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFA00ACC688CE0E9C0FE090 /* Pods-Hammer.23.06.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +522,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X83VDWRY6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Hammer.23.06/Info.plist;
+				INFOPLIST_FILE = Hammer.23.06/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +543,7 @@
 		};
 		783B03D42A45B6E4007D9D08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC93340CFFB5B0D437BEF7D /* Pods-Hammer.23.06.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +551,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X83VDWRY6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Hammer.23.06/Info.plist;
+				INFOPLIST_FILE = Hammer.23.06/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
